@@ -17,7 +17,7 @@ html, body{
 }
 
 header{
-    background-color: #333;
+    background-color: black;
     padding: 32px;
     position: fixed;
     width: 100vw;
@@ -35,31 +35,69 @@ header nav a{
 }
 
 header nav a:hover{
-    background-color: tomato;
+    background-color: #333;
+    border-radius: 15%;
 
 }
 
 .grupo{
+    padding: 100px;
     height: 100vh;
     background-color: tomato;
+    display: flex;
 }
 
-#vermelho{
-    background-color: red;
+#finn{
+    background-color: #5aa8c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finn{
+    width: 50%;
+    height: 50%;
 }
 
-#azul{
-    background-color: blue;
+#jake{
+    background-color: #ffb700;
+    justify-content: center;
+    align-items: center;
 }
 
-#verde{
-    background-color: green;
+.jake{
+    width: 50%;
+    height: 50%;
 }
 
-#amarelo{
-    background-color: yellow;
+#bmo{
+    background-color: #0caf9c;
+    justify-content: center;
+    align-items: center;
 }
 
-#roxo{
-    background-color: purple;
+.bmo{
+    width: 50%;
+    height: 50%;
+}
+
+#jujuba{
+    background-color: #ee9dee;
+    justify-content: center;
+    align-items: center;
+}
+
+.jujuba{
+    width: 50%;
+    height: 50%;
+}
+
+#marcy{
+    background-color: #891d16;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcy{
+    width: 50%;
+    height: 10%;
 }
