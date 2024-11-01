@@ -1,103 +1,144 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul, ol, li{
+ul, ol, li {
     list-style: none;
 }
 
-html, body{
+html, body {
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background-color: black;
     padding: 32px;
     position: fixed;
     width: 100vw;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-header nav a{
+header nav a {
     color: white;
     padding: 8px;
     transition: 0.5s;
 }
 
-header nav a:hover{
+header nav a:hover {
     background-color: #333;
     border-radius: 15%;
-
 }
 
-.grupo{
+.grupo {
     padding: 100px;
     height: 100vh;
     background-color: tomato;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#finn{
-    background-color: #5aa8c4;
+.finn, .jake, .bmo, .jujuba, .marcy {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 50%; 
+    height: 600px; 
+    overflow: hidden; 
 }
-.finn{
+
+.finn img{
+    width: 55%; 
+    height: 100%;
+} 
+
+.texto1{
+    display: flex;
     width: 50%;
     height: 50%;
-}
-
-#jake{
-    background-color: #ffb700;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: rgb(225, 240, 253)
 }
 
-.jake{
+.jake img{
+    width: 45%; 
+    height: 90%;
+} 
+
+.texto2{
+    display: flex;
     width: 50%;
     height: 50%;
-}
-
-#bmo{
-    background-color: #0caf9c;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: black
 }
 
-.bmo{
+.bmo img{
+    width: 55%; 
+    height: 90%;
+}
+
+.texto3{
+    display: flex;
     width: 50%;
     height: 50%;
-}
-
-#jujuba{
-    background-color: #ee9dee;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: #043726;
 }
 
-.jujuba{
+.jujuba img{
+    width: 30%;
+    height: 100%;
+}
+
+.texto4{
+    display: flex;
     width: 50%;
     height: 50%;
-}
-
-#marcy{
-    background-color: #891d16;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: #FECE2D;
 }
 
-.marcy{
-    width: 50%;
-    height: 10%;
+.marcy img {
+    width: 85%; 
+    height: 100%;
 }
+
+.texto5{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: #190200;
+}
+
+#finn { background-color: #5aa8c4; }
+#jake { background-color: #ffb700; }
+#bmo { background-color: #0caf9c; }
+#jujuba { background-color: #ee9dee; }
+#marcy { background-color: #891d16; }
