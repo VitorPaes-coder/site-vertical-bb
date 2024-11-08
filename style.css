@@ -58,50 +58,83 @@ header nav a:hover {
 }
 
 .finn img{
-    width: 55%; 
+    width: 40%; 
     height: 100%;
 } 
 
 .texto1{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: left;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: rgb(220, 232, 255);
+}
+
+.descricao1{
+    display: flex;
+    width: 100%;
     height: 50%;
     align-items: center;
     justify-content: center;
-    font-family: "Reenie Beanie", cursive;
-    font-size: 50px;
-    color: rgb(225, 240, 253)
+    font-family: "Reenie Beanie";
+    font-size: 40px;
+    color: rgb(220, 232, 255);
 }
 
 .jake img{
-    width: 45%; 
+    width: 50%; 
     height: 90%;
 } 
 
 .texto2{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: left;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: black;
+}
+
+.descricao2{
+    display: flex;
+    width: 100%;
     height: 50%;
     align-items: center;
     justify-content: center;
-    font-family: "Reenie Beanie", cursive;
-    font-size: 50px;
-    color: black
+    font-family: "Reenie Beanie";
+    font-size: 40px;
+    color: black;
 }
 
 .bmo img{
-    width: 55%; 
+    width: 60%; 
     height: 90%;
 }
 
 .texto3{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: left;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: #043726;
+}
+
+.descricao3{
+    display: flex;
+    width: 100%;
     height: 50%;
     align-items: center;
     justify-content: center;
-    font-family: "Reenie Beanie", cursive;
-    font-size: 50px;
+    font-family: "Reenie Beanie";
+    font-size: 40px;
     color: #043726;
 }
 
@@ -112,13 +145,24 @@ header nav a:hover {
 
 .texto4{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: left;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 36px;
+    color: #fec91c;
+}
+
+.descricao4{
+    display: flex;
+    width: 100%;
     height: 50%;
     align-items: center;
     justify-content: center;
-    font-family: "Reenie Beanie", cursive;
-    font-size: 50px;
-    color: #FECE2D;
+    font-family: "Reenie Beanie";
+    font-size: 40px;
+    color: #ffcc25;
 }
 
 .marcy img {
@@ -128,13 +172,29 @@ header nav a:hover {
 
 .texto5{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+    align-items: end;
+    justify-content: left;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 36px;
+    color: #190200;
+}
+
+.descricao5{
+    display: flex;
+    width: 100%;
     height: 50%;
     align-items: center;
     justify-content: center;
-    font-family: "Reenie Beanie", cursive;
-    font-size: 50px;
+    font-family: "Reenie Beanie";
+    font-size: 40px;
     color: #190200;
+}
+
+.bio{
+    width: 50%;
+    height: 100%;
 }
 
 #finn { background-color: #5aa8c4; }
