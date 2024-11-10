@@ -1,6 +1,6 @@
 # Site Vertical - Hora de Aventura
 
-![]()
+![](./img/PreviewSiteVertical.png)
 
 
 
