@@ -5,7 +5,7 @@
 
 
 ## Sobre
-Site do tipo vertical para divulgar o desenho animado Hora de Aventura. O objetivo deste projeto é colocar em prática os conhecimentos adquiridos sobre linguagem de marcação, css e html durante o curso de desenvolvimento de sistemas do [SENAI Jandira](https://sp.senai.br/unidade/jandira/)
+Site do tipo vertical para divulgar o desenho animado Hora de Aventura. O objetivo deste projeto é colocar em prática os conhecimentos adquiridos sobre linguagem de marcação, css e html durante o curso de desenvolvimento de sistemas do [SENAI Jandira](https://sp.senai.br/unidade/jandira/).
 
 
 
